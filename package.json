@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/vaultnote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vault validation gates for note inputs before they hit prod.",
+  "bin": {
+    "vaultnote": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/vaultnote.git"
+  },
+  "homepage": "https://theworker02.github.io/vaultnote/",
+  "keywords": [
+    "vault",
+    "note",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
